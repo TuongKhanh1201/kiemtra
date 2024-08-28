@@ -35,6 +35,7 @@ public class QuanLySach {
                     + "\n5. Xoa sach theo ma sach"
                     + "\n6. Sua gia bia cua sach theo ma sach"
                     + "\n7. Tinh tong tri gia cu cac sach"
+                    +"\n8.ket thuc"
                     + "\nChon hanh dong ban muon thuc hien: ");
             chon = sc.nextInt();
             switch (chon) {
@@ -58,6 +59,9 @@ public class QuanLySach {
                     break;
                 case 7:
                     TongTGSach();
+                    break;
+                case 8:
+                    System.out.println("See you again");
                     break;
             }
         }
